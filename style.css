@@ -37,6 +37,11 @@ header nav a:hover {
     color: white;
 }
 
+header nav img {
+    height: 100px;
+    width: 100px;
+}
+
 .container1 {   
     height: 10%;
     display: flex;
@@ -47,7 +52,7 @@ header nav a:hover {
     padding: 50px;
     gap: 100px;
     color: #192a56;
-    background-color: #cfcfd1;
+    background-color: #f9f9fa;
 
 }
 
@@ -206,7 +211,8 @@ footer a {
 }
 
 .btn:hover {
-    background-color: #c6c6c7;;
+    background-color: #192a5648;
+    
 }
 
 .janela-modal {
@@ -269,6 +275,20 @@ footer a {
     cursor: pointer;
 }
 
+.saber-mais {
+    font-weight: 20px;
+    
+}
+
+.saber-mais a {
+    text-decoration: none;
+    color: #192a56
+}
+
+.saber-mais a:hover {
+    color: #4879f3 ;
+}
+
 @keyframes abrirmodal {
     from{
         opacity: 0;
@@ -282,4 +302,29 @@ footer a {
 
 .abrir .modal {
     animation: abrirmodal 0.7s;
+}
+
+
+/* Paginas */
+
+.container-marketing {
+    display: block;
+    padding: 50px;
+}
+
+.container-marketing div {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    color: #192a56;
+    background-color: #f9f9fa;
+
+}
+
+.container-marketing div h1{
+    font-size: 50px;
+}
+
+.container-marketing div p{
+    font-size: 25px;
 }
