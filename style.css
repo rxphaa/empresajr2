@@ -13,6 +13,7 @@ body {
 header{
     background-color: #192a56;
     height: 20%;
+    display: block;
     
 }
 
