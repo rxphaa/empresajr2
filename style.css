@@ -114,6 +114,17 @@ justify-content: center;
     width: 50px;
     margin-bottom: 50px;}
 
+/* Media Query */
+
+ @media screen and (max-width: 576px){
+        .cont-servicos {
+            grid-template-columns: auto;
+            
+        }
+        
+    }
+
+/* Contato */
 .contato {
 background-color: #c7c7ca;
     padding: 50px;
